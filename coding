@@ -1,0 +1,23 @@
+
+Section C
+
+Technical Test (Subjective) 		    45 Marks
+
+
+1) Help Sheeba out 									    10 marks
+
+Sheeba was asked by a Recruiter to write down 100 numbers (1-100) randomly 
+but making sure that no number is repeated twice. At the end, the Recruiter found 
+out that Sheeba had done her work perfectly, but committed just one mistake of 
+repeating a number twice. Recruiter asked Sheeba that she recruiter her only 
+under one condition! If Sheeba is able to find out the only number which she is 
+repeated in an optimised manner.
+
+Can you write a pseudocode, which can help Sheeba to find out the number which 
+got repeated twice?
+
+
+ANS-1) Create a temp array temp[] of size n =100 with all initial values as 0.
+2) Traverse the input array arr[], and do following for each arr[i]
+……a) if(temp[arr[i]] == 0) temp[arr[i]] = 1;
+……b) if(temp[arr[i]] == 1) output “arr[i]” //repeating
